@@ -5,7 +5,7 @@ const Personas = () => {
     <Grid
       container
       spacing={2}
-      style={{ paddingLeft: "70px", paddingRight: "70px" }}
+      style={{ paddingLeft: "300px", paddingRight: "300px" }}
     >
       <Grid item xs={6} md={6}>
         <img

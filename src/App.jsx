@@ -55,6 +55,7 @@ function App() {
                     many apps on the market that are designed for the elderly, here are
                     some examples :
                 </h5>
+                <br/>
                 <Marketcards/>
                 <h3 class="highlighted-paragraph">Surveys</h3>
                 <h5 class="paragraph">
@@ -109,8 +110,8 @@ function App() {
                     style={{
                         height: "80%",
                         width: "80%",
-                        paddingRight: "100px",
-                        paddingLeft: "100px",
+                        paddingRight: "200px",
+                        paddingLeft: "200px",
                     }}
                 />
                 <h3 class="highlighted-paragraph">Storyboard</h3>
@@ -125,8 +126,8 @@ function App() {
                     style={{
                         height: "80%",
                         width: "80%",
-                        paddingRight: "100px",
-                        paddingLeft: "100px",
+                        paddingRight: "200px",
+                        paddingLeft: "200px",
                     }}
                 />
                 <h3 class="highlighted-paragraph">User flowchart</h3>
@@ -140,8 +141,8 @@ function App() {
                     style={{
                         height: "80%",
                         width: "80%",
-                        paddingRight: "100px",
-                        paddingLeft: "100px",
+                        paddingRight: "200px",
+                        paddingLeft: "200px",
                     }}
                 />
             </div>
@@ -155,30 +156,34 @@ function App() {
                 </h5>
                 <Grid container>
                     <Grid item xs={6} md={6}>
-                        iteration 1
-                        <img
-                            alt="iteration1"
-                            src={require("./images/sketches/iteration1.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
+                        <div style={{ textAlign: 'center' }}>
+                            <p>iteration 1</p>
+                            <img
+                                alt="iteration1"
+                                src={require("./images/sketches/iteration1.jpg")}
+                                style={{
+                                    height: "80%",
+                                    width: "80%",
+                                    paddingRight: "50px",
+                                    paddingLeft: "200px",
+                                }}
+                            />
+                        </div>
                     </Grid>
                     <Grid item xs={6} md={6}>
-                        iteration 2
-                        <img
-                            alt="iteration2"
-                            src={require("./images/sketches/iteration2.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
+                        <div style={{ textAlign: 'center' }}>
+                            <p>iteration 2</p>
+                            <img
+                                alt="iteration2"
+                                src={require("./images/sketches/iteration2.jpg")}
+                                style={{
+                                    height: "80%",
+                                    width: "80%",
+                                    paddingRight: "50px",
+                                    paddingLeft: "50px",
+                                }}
+                            />
+                        </div>
                     </Grid>
                 </Grid>
                 <h3 class="highlighted-paragraph">Wireframes</h3>
@@ -296,8 +301,8 @@ function App() {
                     style={{
                         height: "20%",
                         width: "20%",
-                        paddingRight: "100px",
-                        paddingLeft: "100px",
+                        paddingRight: "300px",
+                        paddingLeft: "350px",
                         alignContent: "center",
                         textAlign: "center",
                     }}
