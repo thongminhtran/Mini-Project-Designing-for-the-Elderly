@@ -40,10 +40,10 @@
 
 .highlighted-paragraph {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.2em;
-  color: #666;
+  color: #444;
   padding-left: 150px;
-
+  line-height: 1.5;
 }
 

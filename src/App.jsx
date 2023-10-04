@@ -129,7 +129,7 @@ function App() {
                         paddingLeft: "100px",
                     }}
                 />
-                <h3 id="secondary-title">User flowchart</h3>
+                <h3 class="highlighted-paragraph">User flowchart</h3>
                 <h5 class="paragraph">
                     A user flowchart allows us to visualize the user experience and how
                     one would use and navigate the application.
