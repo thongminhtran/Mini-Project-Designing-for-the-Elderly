@@ -1,14 +1,22 @@
 #navbar {
-  background-color: black;
-  max-height: 70px;
+  background-color: white;
+  max-height: 65px;
+  display: flex;
+  flex-direction: row;  /* Explicitly set to row */
+  align-items: center;  /* This should vertically center items in a row-based flex container */
+  justify-content: space-between; /* If you want the logos to be on one side and the links on the other */
 }
 
-#nav-button {
-  bottom: 20px;
-}
+
 
 #link {
-  font-family: "Montserrat";
-  font-size: 10px;
-  bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.last-link {
+  padding-right: 40px;
 }
