@@ -13,7 +13,7 @@ const Marketcards = () => {
     <Grid
       container
       spacing={2}
-      style={{ paddingLeft: "70px", paddingRight: "70px" }}
+      style={{ paddingLeft: "300px", paddingRight: "300px" }}
     >
       {/* Website 1: Pill reminder */}
       <Grid item xs={6} md={6}>

@@ -81,6 +81,7 @@ const Navbar = () => {
         </Button>
         <Button id="nav-button" color="inherit">
           <Link
+              className="last-link"
             id="link"
             to="FinalDesign"
             spy={true}
