@@ -20,8 +20,8 @@ const Marketcards = () => {
         <Card>
           <CardMedia
             sx={{ height: 200 }}
-            image={require("../images/marketcards/medisafe.png")}
-            title="Pill Reminder by Medisafe"
+            image={require("../images/marketcards/ssc1.png")}
+            title="StaffScheduleCare"
           />
           <CardContent>
             <Typography
@@ -31,11 +31,11 @@ const Marketcards = () => {
               component="div"
               style={{ fontWeight: "bolder" }}
             >
-              Pill Reminder by Medisafe
+              Staff Schedule Care
             </Typography>
             <Grid container spacing={2}>
               <Grid item xs={6}>
-                Description
+                Information
               </Grid>
               <Grid item xs={6}>
                 <Typography id="text" variant="body2" color="text.secondary">
@@ -60,7 +60,7 @@ const Marketcards = () => {
           </CardContent>
           <CardActions>
             <Button size="small">
-              <a href="https://www.medisafe.com">Learn More</a>
+              <a href="https://www.staffschedulecare.com">Learn More</a>
             </Button>
           </CardActions>
         </Card>
@@ -70,8 +70,8 @@ const Marketcards = () => {
         <Card>
           <CardMedia
             sx={{ height: 200 }}
-            image={require("../images/marketcards/seniorsafety.png")}
-            title="Senior Safety"
+            image={require("../images/marketcards/yardi2.jpg")}
+            title="Yardi"
           />
           <CardContent>
             <Typography
@@ -81,11 +81,11 @@ const Marketcards = () => {
               component="div"
               style={{ fontWeight: "bolder" }}
             >
-              Senior Safety
+              Yardi Senior Living Suite
             </Typography>
             <Grid container spacing={2}>
               <Grid item xs={6}>
-                Description
+                Information
               </Grid>
               <Grid item xs={6}>
                 <Typography id="text" variant="body2" color="text.secondary">
@@ -112,7 +112,7 @@ const Marketcards = () => {
           </CardContent>
           <CardActions>
             <Button size="small">
-              <a href="https://www.seniorsafetyapp.com">Learn More</a>
+              <a href="https://www.yardi.com/products/senior-living-software-suite/">Learn More</a>
             </Button>
           </CardActions>
         </Card>
@@ -122,8 +122,8 @@ const Marketcards = () => {
         <Card>
           <CardMedia
             sx={{ height: 200 }}
-            image={require("../images/marketcards/lumino.png")}
-            title="Lumino"
+            image={require("../images/marketcards/amike3.jpg")}
+            title="Amike"
           />
           <CardContent>
             <Typography
@@ -133,11 +133,11 @@ const Marketcards = () => {
               component="div"
               style={{ fontWeight: "bolder" }}
             >
-              Lumino
+              Amika
             </Typography>
             <Grid container spacing={2}>
               <Grid item xs={6}>
-                Description
+                Information
               </Grid>
               <Grid item xs={6}>
                 <Typography id="text" variant="body2" color="text.secondary">
@@ -168,7 +168,7 @@ const Marketcards = () => {
           </CardContent>
           <CardActions>
             <Button size="small">
-              <a href="https://luminohealth.sunlife.ca/s/?language=en_US">
+              <a href="https://www.soinsamika.com">
                 Learn More
               </a>
             </Button>
@@ -179,9 +179,9 @@ const Marketcards = () => {
       <Grid item xs={6} md={6}>
         <Card>
           <CardMedia
-            sx={{ height: 200 }}
-            image={require("../images/marketcards/luminosity.jpg")}
-            title="Luminosity"
+            sx={{ height: 350 }}
+            image={require("../images/marketcards/bien4.png")}
+            title="Bien"
           />
           <CardContent>
             <Typography
@@ -191,11 +191,11 @@ const Marketcards = () => {
               component="div"
               style={{ fontWeight: "bolder" }}
             >
-              Luminosity
+              Bien Chez Soi
             </Typography>
             <Grid container spacing={2}>
               <Grid item xs={6}>
-                Description
+                Information
               </Grid>
               <Grid item xs={6}>
                 <Typography id="text" variant="body2" color="text.secondary">
@@ -225,7 +225,7 @@ const Marketcards = () => {
           </CardContent>
           <CardActions>
             <Button size="small">
-              <a href="https://www.lumosity.com/en/">Learn More</a>
+              <a href="https://bienchezsoi.ca/en/home/">Learn More</a>
             </Button>
           </CardActions>
         </Card>

@@ -11,28 +11,28 @@ const Personas = () => {
         <img
           id="persona-image"
           alt="persona1"
-          src={require("../images/personas/persona1.png")}
+          src={require("../images/personas/p1.png")}
         />
       </Grid>
       <Grid item xs={6} md={6}>
         <img
           id="persona-image"
           alt="persona2"
-          src={require("../images/personas/persona2.png")}
+          src={require("../images/personas/p2.png")}
         />
       </Grid>
       <Grid item xs={6} md={6}>
         <img
           id="persona-image"
           alt="persona3"
-          src={require("../images/personas/persona3.png")}
+          src={require("../images/personas/p3.png")}
         />
       </Grid>
       <Grid item xs={6} md={6}>
         <img
           id="persona-image"
           alt="persona4"
-          src={require("../images/personas/persona4.png")}
+          src={require("../images/personas/p4.png")}
         />
       </Grid>
     </Grid>
