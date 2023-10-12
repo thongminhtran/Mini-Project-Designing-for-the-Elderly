@@ -14,14 +14,14 @@ const Navbar = () => {
         <IconButton>
           <img
             alt="logo"
-            src={require("../images/logo/Fleur de Lys.png")}
+            src={require("../images/logo/quebec-nordiques-1.png")}
             style={{ height: 50, width: 70 }}
           />
         </IconButton>
         <IconButton>
           <img
             alt="logo"
-            src={require("../images/logo/logo_miniproject.png")}
+            src={require("../images/logo/logo-MSSS.jpg")}
             style={{ height: 30, width: 90 }}
           />
         </IconButton>

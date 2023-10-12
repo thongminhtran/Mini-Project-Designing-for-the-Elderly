@@ -11,26 +11,23 @@ function App() {
         <div>
             <Navbar/>
             <h1 class="main-title"> Case Study: Designing for the Elderly</h1>
-            <h4 class="subtitle"> Flora Avakian 40158192 Section S</h4>
-            <h4 class="subtitle">Jonathan Pauze 40177730 Section S</h4>
+            <h4 class="subtitle"> Quan Nguyen The 40108890 Section S</h4>
+            <h4 class="subtitle"> Thong Minh Tran 40072745 Section S</h4>
             <br></br>
             <br></br>
             <br></br>
             <div id="Problem">
                 <h1 class="section-title"> Understanding the problem</h1>
                 <h5 class="paragraph">
-                    The need to improve the quality of life for the senior population is
-                    expanding as the population ages. It has been challenging for seniors
-                    to adopt technology that might possibly improve their lives due to a
-                    lack of applications designed specifically for them. The elderly are
-                    an extremely diverse group with more variabilitiy in their abilities
-                    than younger groups, hence making it hard to design for them. The
-                    Covid-19 pandemic has also had a significant impact on the elderly's
-                    ability to keep up social connections and access medical resources.
+                    As the population grows older, there's an increasing urgency to enhance the life quality of the elderly.
+                    However, the absence of tech applications tailored for seniors makes it difficult for them to benefit from
+                    such advancements. The vast differences in abilities among the elderly, greater than in younger demographics,
+                    complicate design efforts. Additionally, the Covid-19 crisis has notably affected their capacity to maintain social
+                    ties and obtain medical assistance.
                 </h5>
-                <h3 class="highlighted-paragraph" style={{fontWeight: "400"}}>Therefore, </h3>
+                {/*<h3 class="highlighted-paragraph" style={{fontWeight: "400"}}>Therefore, </h3>*/}
                 <h5 class="paragraph">
-                    Our objective is to design an application that enhances the quality of
+                    Therefore, our objective is to design an application that enhances the quality of
                     life of seniors by providing them access to resources that supports
                     their physical and mental wellbeing, as well as giving them a way to
                     keep in touch with their families. Our application will provide a
@@ -41,40 +38,33 @@ function App() {
             <br/>
             <div id="Research">
                 <h1 class="section-title"> Research</h1>
-                <h3 class="highlighted-paragraph">What is available on the Market</h3>
+                <h3 class="highlighted-paragraph">Current Market</h3>
                 <h5 class="paragraph">
-                    Due to the aging of the global population, there is an increasing
-                    demand for applications made specifically for seniors. According to
+                    As the worldwide population gets older, there's a rising need for apps tailored to the elderly.
+                    According to
                     <a href=" https://www.factmr.com/report/3123/senior-care-technologies-market">
                         {" "}
                         a study by Senior Care Technologies Market Outlook
                     </a>
-                    , the global senior care technologies market is at present valued at
-                    $43.38 Billion in 2022. The market is further anticipated to cross a
-                    valuation of $76.23 Billion by the end of 2032. There are currently
-                    many apps on the market that are designed for the elderly, here are
-                    some examples :
+                    , the report reveals that the worldwide market for senior
+                      care technologies is currently worth $56 Billion in 2023. This value is expected to surpass $98 Billion
+                      by 2050. At present, several apps cater to seniors, and here are a few examples:
                 </h5>
                 <br/>
                 <Marketcards/>
                 <h3 class="highlighted-paragraph">Surveys</h3>
                 <h5 class="paragraph">
-                    The elderly are a diverse population with varying levels of technology
-                    experience and comfort. Some may have little knowledge and find
-                    technology difficult to use, while some may be tech-savvy and use a
-                    variety of technological devices. We conducted a survey to gather
-                    feedback from elderly people and understand their preferences and
-                    needs when it comes to using technology.This will help us in
-                    developing an app that is more inclusive, accessible, and
-                    user-friendly.
+                    The senior population exhibits a broad spectrum of familiarity with technology. While some might struggle
+                    with its usage due to limited exposure, others are quite adept and engage with multiple tech devices.
+                    We carried out a survey to comprehend the technological preferences and requirements of older individuals.
+                    The insights will guide us in building an app that's comprehensive, easy to navigate, and user-centric.
                 </h5>
                 <h5 class="paragraph">
                     Here are the findings of our{" "}
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScjnbsTVL_80Z0VI418eEWkYj3HLPP5xGdBlF9cOikDmqeyIQ/viewform">
                         survey
                     </a>
-                    . We distributed the questionnaires to senior relatives of our team
-                    members and we received 22 responses.
+                    . We distributed the questionnaires to senior relatives from our neighborhood and we received 15 responses.
                 </h5>
                 <Surveys/>
             </div>
@@ -82,20 +72,15 @@ function App() {
             <div id="Analysis">
                 <h1 class="section-title">Analysis</h1>
                 <h5 class="paragraph">
-                    With our research concluded, we move on to the analysis phase of the
-                    design process. A thorough examination of the data collected will
-                    helps us determine user needs in order to create the ideal design.{" "}
+                    Having completed our research, we now transition to the analysis stage of our design journey.
+                    A detailed review of the gathered data will aid in identifying user requirements,
+                    guiding us towards crafting the perfect design.{" "}
                 </h5>
                 <h3 class="highlighted-paragraph">User personas</h3>
                 <h5 class="paragraph">
-                    Using data we gathered from surveys, we were able to create four
-                    unique personas whom all have different personalities, traits and
-                    desires for the application, but ultimately want an app to use. Each
-                    persona has background information, their relationship with
-                    smartphones and a list of traits that can affect desires. Their
-                    motivations and goals in regards of using an app for their wellbeing
-                    are also recorded alongside their pain points, highlighting the
-                    troubles that they are facing throughout their journey.
+                    From the survey data, we crafted four distinct personas, each with their own characteristics,
+                    needs, and wishes for the application, yet all aiming for a usable app. Every persona is detailed
+                    with background info, their rapport with smartphones, and specific traits influencing their preferences.
                 </h5>
                 <Personas/>
                 <h3 class="highlighted-paragraph">Journey Map</h3>
