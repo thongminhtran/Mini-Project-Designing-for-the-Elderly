@@ -5,18 +5,20 @@
   flex-direction: row;  /* Explicitly set to row */
   align-items: center;  /* This should vertically center items in a row-based flex container */
   justify-content: space-between; /* If you want the logos to be on one side and the links on the other */
+  overflow: hidden;
+  padding: 14px 16px;
 }
 
 
 
 #link {
-  font-family: "Raleway", sans-serif;
-  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: dodgerblue;
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 .last-link {
-  padding-right: 40px;
+  padding-right: 0.1px;
 }
