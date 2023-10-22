@@ -149,16 +149,16 @@ function App() {
                 </h5>
 
                 <h3 className="highlighted-paragraph">Wireframes</h3>
-                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', paddingLeft: '180px' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', paddingLeft: '180px', padding: '20px 80px 180px 180px' }}>
                     {/* First 3 photos */}
                     <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
-                        <img alt="iteration1" src={require("./images/wireframes/wf1.jpg")} style={{ height: "85%", width: "85%" }} />
+                        <img alt="iteration1" src={require("./images/wireframes/wf1.jpg")} style={{ height: "105%", width: "95%" }} />
                     </div>
                     <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
-                        <img alt="iteration1" src={require("./images/wireframes/wf2.jpg")} style={{ height: "85%", width: "85%" }} />
+                        <img alt="iteration1" src={require("./images/wireframes/wf2.jpg")} style={{ height: "105%", width: "95%" }} />
                     </div>
                     <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
-                        <img alt="iteration1" src={require("./images/wireframes/wf3.jpg")} style={{ height: "85%", width: "85%" }} />
+                        <img alt="iteration1" src={require("./images/wireframes/wf3.jpg")} style={{ height: "105%", width: "95%" }} />
                     </div>
 
 
@@ -224,6 +224,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }
