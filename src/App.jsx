@@ -58,14 +58,15 @@ function App() {
                     with its usage due to limited exposure, others are quite adept and engage with multiple tech devices.
                     We carried out a survey to comprehend the technological preferences and requirements of older individuals.
                     The insights will guide us in building an app that's comprehensive, easy to navigate, and user-centric.
+                    We distributed the questionnaires to senior relatives from our neighborhood and we received 22 responses.
                 </h5>
-                <h5 class="paragraph">
-                    Here are the findings of our{" "}
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScjnbsTVL_80Z0VI418eEWkYj3HLPP5xGdBlF9cOikDmqeyIQ/viewform">
-                        survey
-                    </a>
-                    . We distributed the questionnaires to senior relatives from our neighborhood and we received 15 responses.
-                </h5>
+                {/*<h5 class="paragraph">*/}
+                {/*    /!*Here are the findings of our{" "}*!/*/}
+                {/*    /!*<a href="https://docs.google.com/forms/d/e/1FAIpQLScjnbsTVL_80Z0VI418eEWkYj3HLPP5xGdBlF9cOikDmqeyIQ/viewform">*!/*/}
+                {/*    /!*    survey*!/*/}
+                {/*    /!*</a>*!/*/}
+                {/*    .We distributed the questionnaires to senior relatives from our neighborhood and we received 15 responses.*/}
+                {/*</h5>*/}
                 <Surveys/>
             </div>
             <br/>
@@ -85,13 +86,13 @@ function App() {
                 <Personas/>
                 <h3 class="highlighted-paragraph">Journey Map</h3>
                 <h5 class="paragraph">
-                    This user journey follows Cindy, an elderly woman with dentures who
+                    This user journey follows Natalia, an elderly woman with dentures who
                     frequently attends ladies get-togethers, as she uses our elderly app
                     to manage her denture care and other aspects of her life.
                 </h5>
                 <img
                     alt="journeymap"
-                    src={require("./images/journeymap/journeymap.jpg")}
+                    src={require("./images/journeymap/journey_map.png")}
                     style={{
                         height: "80%",
                         width: "80%",
@@ -101,13 +102,12 @@ function App() {
                 />
                 <h3 class="highlighted-paragraph">Storyboard</h3>
                 <h5 class="paragraph">
-                    Storyboards allows us to imagine scenarios in which the user interacts
-                    with the application. In this case, we have Cindy's story in which she
-                    is the main character.
+                    Storyboarding enables us to envision situations where the user engages with the application.
+                    For instance, we can create a narrative centered around Henry as the main character.
                 </h5>
                 <img
                     alt="flowchart"
-                    src={require("./images/storyboard/storyboard.jpg")}
+                    src={require("./images/storyboard/387511292_6648446641929343_5162624393080302436_n.jpg")}
                     style={{
                         height: "80%",
                         width: "80%",
@@ -122,7 +122,7 @@ function App() {
                 </h5>
                 <img
                     alt="flowchart"
-                    src={require("./images/flowchart/flowchart.png")}
+                    src={require("./images/flowchart/Flowchart.png")}
                     style={{
                         height: "80%",
                         width: "80%",
@@ -136,8 +136,10 @@ function App() {
                 <h1 class="section-title"> Visual Design</h1>
                 <h3 class="highlighted-paragraph">Sketches</h3>
                 <h5 class="paragraph">
-                    Sketches are an easy and effective way to create a general layout for
-                    the application without being too formal.
+                    Sketches are quick, hand-drawn or digitally created representations of design ideas.
+                    They serve as a low-fidelity tool for rapid ideation, concept exploration, and collaboration among team members.
+                    Sketches help designers visualize layout options, user flows, and interactions, facilitating a faster feedback
+                    loop and serving as a foundation for more detailed design stages like wireframes and prototypes.
                 </h5>
                 <Grid container>
                     <Grid item xs={6} md={6}>
@@ -145,7 +147,7 @@ function App() {
                             <p>iteration 1</p>
                             <img
                                 alt="iteration1"
-                                src={require("./images/sketches/iteration1.jpg")}
+                                src={require("./images/sketches/387649611_3593028587633494_5731897348590143103_n.jpg")}
                                 style={{
                                     height: "80%",
                                     width: "80%",
@@ -160,7 +162,7 @@ function App() {
                             <p>iteration 2</p>
                             <img
                                 alt="iteration2"
-                                src={require("./images/sketches/iteration2.jpg")}
+                                src={require("./images/sketches/387506906_351581823963637_8383108626119808794_n.jpg")}
                                 style={{
                                     height: "80%",
                                     width: "80%",
@@ -176,7 +178,7 @@ function App() {
                     <Grid item xs={4} md={4}>
                         <img
                             alt="iteration1"
-                            src={require("./images/wireframes/wireframe1.png")}
+                            src={require("./images/wireframes/wf1.jpg")}
                             style={{
                                 height: "80%",
                                 width: "80%",
@@ -188,7 +190,7 @@ function App() {
                     <Grid item xs={4} md={4}>
                         <img
                             alt="iteration1"
-                            src={require("./images/wireframes/wireframe2.png")}
+                            src={require("./images/wireframes/wf2.jpg")}
                             style={{
                                 height: "80%",
                                 width: "80%",
@@ -200,11 +202,23 @@ function App() {
                     <Grid item xs={4} md={4}>
                         <img
                             alt="iteration1"
-                            src={require("./images/wireframes/wireframe3.png")}
+                            src={require("./images/wireframes/wf3.jpg")}
                             style={{
                                 height: "80%",
                                 width: "80%",
-                                paddingRight: "100px",
+                                paddingRight: "200px",
+                                paddingLeft: "50px",
+                            }}
+                        />
+                    </Grid>
+                    <Grid item xs={4} md={4}>
+                        <img
+                            alt="iteration1"
+                            src={require("./images/wireframes/wf4.jpg")}
+                            style={{
+                                height: "80%",
+                                width: "80%",
+                                paddingRight: "0px",
                                 paddingLeft: "100px",
                             }}
                         />
@@ -212,63 +226,16 @@ function App() {
                     <Grid item xs={4} md={4}>
                         <img
                             alt="iteration1"
-                            src={require("./images/wireframes/wireframe4.png")}
+                            src={require("./images/wireframes/wf5.jpg")}
                             style={{
                                 height: "80%",
                                 width: "80%",
-                                paddingRight: "100px",
+                                paddingRight: "0px",
                                 paddingLeft: "100px",
                             }}
                         />
                     </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wireframe5.png")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wireframe6.png")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wireframe7.png")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wireframe8.png")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
+
                 </Grid>
             </div>
             <br/>
@@ -276,34 +243,41 @@ function App() {
                 <h1 class="section-title"> Final Design</h1>
                 <h3 class="highlighted-paragraph">Color Palette</h3>
                 <h5 class="paragraph">
-                    After brainstorming color palettes, we ultimately chose a blue color
-                    to represent the government of quebec as well as an color that could
-                    match this blue and is easy to the eyes.
+                   After brainstorming color palettes,
+                    we ultimately chose a deep blue color to represent the government of Quebec.
+                    This shade not only reflects a sense of authority and professionalism but also aligns with
+                    the region's cultural identity. Additionally, we selected a complementary color, a soft and welcoming
+                    gray, to accompany the blue. This combination not only ensures readability and accessibility but also
+                    creates a harmonious and aesthetically pleasing visual identity for the government's representation.
                 </h5>
-                <img
-                    alt="iteration1"
-                    src={require("./images/color/colorpalettes.png")}
-                    style={{
-                        height: "20%",
-                        width: "20%",
-                        paddingRight: "300px",
-                        paddingLeft: "350px",
-                        alignContent: "center",
-                        textAlign: "center",
-                    }}
-                />
+                {/*<img*/}
+                {/*    alt="iteration1"*/}
+                {/*    src={require("./images/color/colorpalettes.png")}*/}
+                {/*    style={{*/}
+                {/*        height: "20%",*/}
+                {/*        width: "20%",*/}
+                {/*        paddingRight: "300px",*/}
+                {/*        paddingLeft: "350px",*/}
+                {/*        alignContent: "center",*/}
+                {/*        textAlign: "center",*/}
+                {/*    }}*/}
+                {/*/>*/}
                 <h3 class="highlighted-paragraph">Typography</h3>
                 <h5 class="paragraph">
-                    As for the typography, we decided to go with Montserrat, a minimalist,
-                    simple and classic font that is easy to read and is commonly known
-                    among seniors.
+                    In our exploration of typography, we concluded that Calibri was the ideal choice. This minimalist,
+                    simple, and classic font not only exudes a timeless elegance but also ensures clear readability across
+                    various communication materials. Its clean lines and balanced proportions make it an excellent choice
+                    for conveying information effectively. Moreover, we considered the broad audience, including seniors,
+                    and chose Calibri for its familiarity and legibility. Its widespread recognition ensures that the
+                    font is approachable and accessible to a diverse range of users, aligning perfectly with our commitment
+                    to inclusive design principles.
                 </h5>
                 <h3 class="highlighted-paragraph">Final Design work</h3>
                 <Grid container>
                     <Grid item xs={4} md={4}>
                         <img
                             alt="iteration1"
-                            src={require("./images/finaldesign/fd1.png")}
+                            src={require("./images/finaldesign/fd1.jpg")}
                             style={{
                                 height: "80%",
                                 width: "80%",
@@ -315,7 +289,7 @@ function App() {
                     <Grid item xs={4} md={4}>
                         <img
                             alt="iteration1"
-                            src={require("./images/finaldesign/fd2.png")}
+                            src={require("./images/finaldesign/393810970_6766496816767927_9174245756332983525_n.jpg")}
                             style={{
                                 height: "80%",
                                 width: "80%",
@@ -327,7 +301,19 @@ function App() {
                     <Grid item xs={4} md={4}>
                         <img
                             alt="iteration1"
-                            src={require("./images/finaldesign/fd3.png")}
+                            src={require("./images/finaldesign/fd3.jpg")}
+                            style={{
+                                height: "80%",
+                                width: "80%",
+                                paddingRight: "100px",
+                                paddingLeft: "50px",
+                            }}
+                        />
+                    </Grid>
+                    <Grid item xs={4} md={4}>
+                        <img
+                            alt="iteration1"
+                            src={require("./images/finaldesign/fd4.jpg")}
                             style={{
                                 height: "80%",
                                 width: "80%",
@@ -339,55 +325,7 @@ function App() {
                     <Grid item xs={4} md={4}>
                         <img
                             alt="iteration1"
-                            src={require("./images/finaldesign/fd4.png")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/finaldesign/fd5.png")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/finaldesign/fd6.png")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/finaldesign/fd7.png")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/finaldesign/fd8.png")}
+                            src={require("./images/finaldesign/fd5.jpg")}
                             style={{
                                 height: "80%",
                                 width: "80%",

@@ -1,30 +1,40 @@
 import { Grid, Typography } from "@mui/material";
 
 const Surveys = () => {
+  const imageStyle = {
+    maxWidth: "100%", // Set the maximum width for the images
+    height: "auto",   // Maintain the aspect ratio
+  };
+
+  // const gridItemStyle = {
+  //   margin: "10px",    // Add margin to create space around the images
+  //   padding: "10px",   // Add padding for additional spacing
+  // };
+
   return (
     <Grid
       container
       spacing={2}
-      style={{ paddingLeft: "300px", paddingRight: "300px" }}
+      style={{ paddingLeft: "200px", paddingRight: "300px" }}
     >
-      <Grid item xs={6} md={6}>
-        <img alt="survey1" src={require("../images/surveys/survey1.png")} />
+      <Grid item xs={6} md={6} >
+        <img alt="survey1" src={require("../images/surveys/survey1.png")} style={imageStyle} />
       </Grid>
-      <Grid item xs={6} md={6}>
-        <img alt="survey2" src={require("../images/surveys/survey2.png")} />
+      <Grid item xs={6} md={6} >
+        <img alt="survey2" src={require("../images/surveys/survey2.png")} style={imageStyle} />
       </Grid>
-      <Grid item xs={6} md={6}>
-        <img alt="survey3" src={require("../images/surveys/survey3.png")} />
+      <Grid item xs={6} md={6} >
+        <img alt="survey3" src={require("../images/surveys/survey3.png")} style={imageStyle} />
       </Grid>
-      <Grid item xs={6} md={6}>
-        <img alt="survey4" src={require("../images/surveys/survey4.png")} />
+      <Grid item xs={6} md={6} >
+        <img alt="survey4" src={require("../images/surveys/survey4.png")} style={imageStyle} />
       </Grid>
-      <Grid item xs={6} md={6}>
-        <img alt="survey5" src={require("../images/surveys/survey5.png")} />
+      <Grid item xs={6} md={6} >
+        <img alt="survey5" src={require("../images/surveys/survey5.png")} style={imageStyle} />
       </Grid>
-      <Grid item xs={6} md={6}>
-        <img alt="survey6" src={require("../images/surveys/survey6.png")} />
-      </Grid>
+      {/*<Grid item xs={6} md={6}>*/}
+      {/*  <img alt="survey6" src={require("../images/surveys/survey6.png")} />*/}
+      {/*</Grid>*/}
       <Typography
         id="text"
         variant="body2"

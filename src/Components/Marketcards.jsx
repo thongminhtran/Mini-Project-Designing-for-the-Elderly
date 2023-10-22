@@ -39,12 +39,13 @@ const Marketcards = () => {
               </Grid>
               <Grid item xs={6}>
                 <Typography id="text" variant="body2" color="text.secondary">
-                  Pill Reminder is a medication management app that provides
-                  medication reminders, refill alerts, and pill tracking. It
-                  also offers features such as drug interaction warnings,
-                  prescription discount coupons, and medication history. The
-                  app's interface is easy to use and can help seniors keep track
-                  of their medications and avoid missing doses.
+                  StaffScheduleCare is North America’s fastest growing fully integrated On-Demand workforce management
+                  solution for Long Term Care & Retirement facilities.
+                  We’re not “just another time clock company” trying to serve the nursing home community along with all other industries.
+                  Unlike most other products on the market today, our product is not a conversion or expansion of a basic
+                  retail or manufacturing scheduling solution attempting to masquerade as a healthcare solution.
+
+
                 </Typography>
               </Grid>
               <Grid item xs={6}>
@@ -52,7 +53,7 @@ const Marketcards = () => {
               </Grid>
               <Grid item xs={6}>
                 <Typography id="text" variant="body2" color="text.secondary">
-                  The app's interface is easy to use and can help seniors keep
+                  The website's interface is easy to use and can help seniors keep
                   track of their medications and avoid missing doses.
                 </Typography>
               </Grid>
@@ -89,11 +90,10 @@ const Marketcards = () => {
               </Grid>
               <Grid item xs={6}>
                 <Typography id="text" variant="body2" color="text.secondary">
-                  Senior Safety Phone is a simplified Android app designed
-                  specially for elderly users. It has standard phone features
-                  including calling, texting, and a camera. The app also
-                  features a power conservation mode, easy access to medical
-                  data, and an SOS button for emergencies.
+                  Yardi Senior Living Suite is a software solution designed for senior living communities and care providers by Yardi Systems, Inc.
+                  It offers features for managing various aspects, including resident care, health records, billing,
+                  financial management, occupancy, staff scheduling, and reporting. The software aims to streamline
+                  operations and enhance the management of senior living facilities.
                 </Typography>
               </Grid>
               <Grid item xs={6}>
@@ -101,11 +101,8 @@ const Marketcards = () => {
               </Grid>
               <Grid item xs={6}>
                 <Typography id="text" variant="body2" color="text.secondary">
-                  The app's interface is simple, with big buttons, clear writing
-                  and associative colors. This straightforward design faciliates
-                  user understanding and allows the users to associate words
-                  with the existing buttons and colors. For example, red
-                  signifies a danger.
+                  The website's interface is simple, with big buttons, clear writing
+                  and associative colors.
                 </Typography>
               </Grid>
             </Grid>
@@ -141,16 +138,9 @@ const Marketcards = () => {
               </Grid>
               <Grid item xs={6}>
                 <Typography id="text" variant="body2" color="text.secondary">
-                  The Lumino app is designed to assist elderly in maintaining
-                  their independence and wellbeing. It provides numerous
-                  functions, such as medicine reminders, fall detection, and
-                  emergency contacts. Users can schedule reminders for their
-                  meds with the medication management feature. The app also
-                  notifies the user's emergency contacts if a prescription dose
-                  is missed. It has a fall detection function which makes
-                  elderly people feel safer while going about their regular
-                  activities. Also, the app will immediately contact for
-                  assistance if the user becomes unresponsive.
+                  company or service that provides assistance and care to individuals in their homes.
+                  This could include services such as personal care, assistance with daily activities,
+                  nursing care, and other forms of support for people who prefer to receive care in their own residences.
                 </Typography>
               </Grid>
               <Grid item xs={6}>
@@ -158,7 +148,7 @@ const Marketcards = () => {
               </Grid>
               <Grid item xs={6}>
                 <Typography id="text" variant="body2" color="text.secondary">
-                  The app's interface is easy to navigate, allowing specific
+                  The wesbite's interface is easy to navigate, allowing specific
                   searches and categorized health topics. This helps ease
                   understanding, hence providing a friendly and simplified user
                   experience, making it perfect for seniors.
@@ -199,16 +189,10 @@ const Marketcards = () => {
               </Grid>
               <Grid item xs={6}>
                 <Typography id="text" variant="body2" color="text.secondary">
-                  Luminosity is an app that provides a variety of brain-training
-                  activities and exercises that are especially made for elderly
-                  to help them retain their mental health and cognitive
-                  ability.This application stimulates and challenges parts of
-                  the brain like memory, attention, problem-solving, and
-                  processing speed .It also offers a customized training program
-                  that changes based on the user's performance and preferences.
-                  The app also offers mindfulness exercises and relaxation
-                  techniques to help users manage stress and enhance their
-                  general well-being.
+                  Bien Chez Soi is the service which related to home care, assistance and well-being.These services
+                  typically offer support to individuals who prefer to receive care, assistance with daily
+                  activities, or medical care in the comfort of their own homes. This could include services such as personal care,
+                  nursing, meal assistance, and other forms of support.
                 </Typography>
               </Grid>
               <Grid item xs={6}>
@@ -218,7 +202,7 @@ const Marketcards = () => {
                 <Typography id="text" variant="body2" color="text.secondary">
                   It has a user-friendly design, using big images to convey an
                   idea along with big logos, big texts and simple colors. These
-                  features allows any age group to easily use the application.
+                  features allows any age group to easily use the website.
                 </Typography>
               </Grid>
             </Grid>
