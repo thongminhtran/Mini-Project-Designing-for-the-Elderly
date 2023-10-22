@@ -206,8 +206,8 @@ function App() {
                             style={{
                                 height: "80%",
                                 width: "80%",
-                                paddingRight: "200px",
-                                paddingLeft: "50px",
+                                paddingRight: "100px",
+                                paddingLeft: "87px",
                             }}
                         />
                     </Grid>
@@ -218,7 +218,7 @@ function App() {
                             style={{
                                 height: "80%",
                                 width: "80%",
-                                paddingRight: "0px",
+                                paddingRight: "100px",
                                 paddingLeft: "100px",
                             }}
                         />
@@ -230,7 +230,7 @@ function App() {
                             style={{
                                 height: "80%",
                                 width: "80%",
-                                paddingRight: "0px",
+                                paddingRight: "100px",
                                 paddingLeft: "100px",
                             }}
                         />
@@ -250,18 +250,7 @@ function App() {
                     gray, to accompany the blue. This combination not only ensures readability and accessibility but also
                     creates a harmonious and aesthetically pleasing visual identity for the government's representation.
                 </h5>
-                {/*<img*/}
-                {/*    alt="iteration1"*/}
-                {/*    src={require("./images/color/colorpalettes.png")}*/}
-                {/*    style={{*/}
-                {/*        height: "20%",*/}
-                {/*        width: "20%",*/}
-                {/*        paddingRight: "300px",*/}
-                {/*        paddingLeft: "350px",*/}
-                {/*        alignContent: "center",*/}
-                {/*        textAlign: "center",*/}
-                {/*    }}*/}
-                {/*/>*/}
+
                 <h3 class="highlighted-paragraph">Typography</h3>
                 <h5 class="paragraph">
                     In our exploration of typography, we concluded that Calibri was the ideal choice. This minimalist,
@@ -306,7 +295,7 @@ function App() {
                                 height: "80%",
                                 width: "80%",
                                 paddingRight: "100px",
-                                paddingLeft: "50px",
+                                paddingLeft: "90px",
                             }}
                         />
                     </Grid>
