@@ -1,7 +1,7 @@
 {
-  "name": "soen357-miniproject",
+  "name": "MiniProject-SOEN357",
   "version": "0.1.0",
-  "homepage": "https://MrMelon1232.github.io/soen357-miniproject",
+  "homepage": "https://thongminhtran.github.io/MiniProject-SOEN357",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
