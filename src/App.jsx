@@ -59,14 +59,12 @@ function App() {
                     We carried out a survey to comprehend the technological preferences and requirements of older individuals.
                     The insights will guide us in building an app that's comprehensive, easy to navigate, and user-centric.
                     We distributed the questionnaires to senior relatives from our neighborhood and we received 22 responses.
+                    Here are the findings of our{" "}
+                    <a href="https://forms.gle/VKo99ZbN7XSSQShi7">
+                        survey
+                    </a>
+                    . We distributed the questionnaires to senior relatives from our neighborhood and we received 15 responses.
                 </h5>
-                {/*<h5 class="paragraph">*/}
-                {/*    /!*Here are the findings of our{" "}*!/*/}
-                {/*    /!*<a href="https://docs.google.com/forms/d/e/1FAIpQLScjnbsTVL_80Z0VI418eEWkYj3HLPP5xGdBlF9cOikDmqeyIQ/viewform">*!/*/}
-                {/*    /!*    survey*!/*/}
-                {/*    /!*</a>*!/*/}
-                {/*    .We distributed the questionnaires to senior relatives from our neighborhood and we received 15 responses.*/}
-                {/*</h5>*/}
                 <Surveys/>
             </div>
             <br/>
@@ -174,24 +172,24 @@ function App() {
                     </Grid>
                 </Grid>
                 <h3 class="highlighted-paragraph">Wireframes</h3>
-                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', paddingLeft: '180px' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', paddingBottom: '40px', padding: '20px 80px 180px 180px'}}>
                     {/* First 3 photos */}
                     <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
-                        <img alt="iteration1" src={require("./images/wireframes/wf1.jpg")} style={{ height: "85%", width: "85%" }} />
+                        <img alt="iteration1" src={require("./images/wireframes/wf1.jpg")} style={{ height: "105%", width: "95%" }} />
                     </div>
                     <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
-                        <img alt="iteration1" src={require("./images/wireframes/wf2.jpg")} style={{ height: "85%", width: "85%" }} />
+                        <img alt="iteration1" src={require("./images/wireframes/wf2.jpg")} style={{ height: "105%", width: "95%" }} />
                     </div>
                     <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
-                        <img alt="iteration1" src={require("./images/wireframes/wf3.jpg")} style={{ height: "85%", width: "85%" }} />
+                        <img alt="iteration1" src={require("./images/wireframes/wf3.jpg")} style={{ height: "105%", width: "95%" }} />
                     </div>
 
                     {/* Last 2 photos */}
                     <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
-                        <img alt="iteration1" src={require("./images/wireframes/wf4.jpg")} style={{ height: "100%", width: "85%" }} />
+                        <img alt="iteration1" src={require("./images/wireframes/wf4.jpg")} style={{ height: "105%", width: "95%", paddingTop: "25px" }} />
                     </div>
                     <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
-                        <img alt="iteration1" src={require("./images/wireframes/wf5.jpg")} style={{ height: "100%", width: "85%" }} />
+                        <img alt="iteration1" src={require("./images/wireframes/wf5.jpg")} style={{ height: "105%", width: "95%", paddingTop: "25px" }} />
                     </div>
                     <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
                         {/* This is the spacer */}

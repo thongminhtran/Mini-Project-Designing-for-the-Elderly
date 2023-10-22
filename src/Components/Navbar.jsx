@@ -9,7 +9,7 @@ const Navbar = () => {
   const closeMenu = () => setClick(false);
 
   return (
-    <AppBar id="navbar" position="sticky">
+    <AppBar id="navbar" position="sticky" style={{backgroundColor: '#2c3e50'}}>
       <Toolbar>
         <IconButton>
           <img
