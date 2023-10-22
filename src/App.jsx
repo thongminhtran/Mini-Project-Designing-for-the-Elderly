@@ -179,17 +179,67 @@ function App() {
                     </Grid>
                 </Grid>
                 <h3 class="highlighted-paragraph">Wireframes</h3>
-                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', paddingBottom: '40px', padding: '20px 80px 180px 180px'}}>
-                    {/* First 3 photos */}
-                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
-                        <img alt="iteration1" src={require("./images/wireframes/wf1.jpg")} style={{ height: "105%", width: "95%" }} />
-                    </div>
-                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
-                        <img alt="iteration1" src={require("./images/wireframes/wf2.jpg")} style={{ height: "105%", width: "95%" }} />
-                    </div>
-                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
-                        <img alt="iteration1" src={require("./images/wireframes/wf3.jpg")} style={{ height: "105%", width: "95%" }} />
-                    </div>
+                <Grid container>
+                    <Grid item xs={4} md={4}>
+                        <img
+                            alt="iteration1"
+                            src={require("./images/wireframes/wf1.jpg")}
+                            style={{
+                                height: "80%",
+                                width: "80%",
+                                paddingRight: "100px",
+                                paddingLeft: "100px",
+                            }}
+                        />
+                    </Grid>
+                    <Grid item xs={4} md={4}>
+                        <img
+                            alt="iteration1"
+                            src={require("./images/wireframes/wf2.jpg")}
+                            style={{
+                                height: "80%",
+                                width: "80%",
+                                paddingRight: "100px",
+                                paddingLeft: "100px",
+                            }}
+                        />
+                    </Grid>
+                    <Grid item xs={4} md={4}>
+                        <img
+                            alt="iteration1"
+                            src={require("./images/wireframes/wf3.jpg")}
+                            style={{
+                                height: "80%",
+                                width: "80%",
+                                paddingRight: "200px",
+                                paddingLeft: "50px",
+                            }}
+                        />
+                    </Grid>
+                    <Grid item xs={4} md={4}>
+                        <img
+                            alt="iteration1"
+                            src={require("./images/wireframes/wf4.jpg")}
+                            style={{
+                                height: "80%",
+                                width: "80%",
+                                paddingRight: "0px",
+                                paddingLeft: "100px",
+                            }}
+                        />
+                    </Grid>
+                    <Grid item xs={4} md={4}>
+                        <img
+                            alt="iteration1"
+                            src={require("./images/wireframes/wf5.jpg")}
+                            style={{
+                                height: "80%",
+                                width: "80%",
+                                paddingRight: "0px",
+                                paddingLeft: "100px",
+                            }}
+                        />
+                    </Grid>
 
                     {/* Last 2 photos */}
                     <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
