@@ -5,7 +5,7 @@ import "./Navbar.css";
 const Footer = () => {
     return (
         <AppBar id="footer" position="static" style={{ backgroundColor: '#2c3e50', borderTop: '5px solid #3498db', marginTop: '40px' }}>
-            <Toolbar style={{ justifyContent: 'center', padding: '20px 0' }}>
+            <Toolbar style={{ justifyContent: 'center', padding: '20px 0', backgroundColor: "white" }}>
                 <Stack direction="row" justifyContent="center" columnGap={2}>
                     <Button id="nav-button" style={{ color: '#ecf0f1' }}>
                         <Link
