@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import Marketcards from "./Components/Marketcards";
 import Surveys from "./Components/Surveys";
 import Personas from "./Components/Personas";
+import Footer from "./Components/Footer";
 
 function App() {
     return (
@@ -146,100 +147,20 @@ function App() {
                     Sketches help designers visualize layout options, user flows, and interactions, facilitating a faster feedback
                     loop and serving as a foundation for more detailed design stages like wireframes and prototypes.
                 </h5>
-                <Grid container>
-                    <Grid item xs={6} md={6}>
-                        <div style={{ textAlign: 'center' }}>
-                            <p>iteration 1</p>
-                            <img
-                                alt="iteration1"
-                                src={require("./images/sketches/387649611_3593028587633494_5731897348590143103_n.jpg")}
-                                style={{
-                                    height: "80%",
-                                    width: "80%",
-                                    paddingRight: "50px",
-                                    paddingLeft: "200px",
-                                }}
-                            />
-                        </div>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                        <div style={{ textAlign: 'center' }}>
-                            <p>iteration 2</p>
-                            <img
-                                alt="iteration2"
-                                src={require("./images/sketches/387506906_351581823963637_8383108626119808794_n.jpg")}
-                                style={{
-                                    height: "80%",
-                                    width: "80%",
-                                    paddingRight: "50px",
-                                    paddingLeft: "50px",
-                                }}
-                            />
-                        </div>
-                    </Grid>
-                </Grid>
-                <h3 class="highlighted-paragraph">Wireframes</h3>
-                <Grid container>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wf1.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wf2.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wf3.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "200px",
-                                paddingLeft: "50px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wf4.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "0px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wf5.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "0px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
+
+                <h3 className="highlighted-paragraph">Wireframes</h3>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', paddingLeft: '180px' }}>
+                    {/* First 3 photos */}
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        <img alt="iteration1" src={require("./images/wireframes/wf1.jpg")} style={{ height: "85%", width: "85%" }} />
+                    </div>
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        <img alt="iteration1" src={require("./images/wireframes/wf2.jpg")} style={{ height: "85%", width: "85%" }} />
+                    </div>
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        <img alt="iteration1" src={require("./images/wireframes/wf3.jpg")} style={{ height: "85%", width: "85%" }} />
+                    </div>
+
 
                     {/* Last 2 photos */}
                     <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
