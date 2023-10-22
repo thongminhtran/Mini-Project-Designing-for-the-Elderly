@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar";
 import Marketcards from "./Components/Marketcards";
 import Surveys from "./Components/Surveys";
 import Personas from "./Components/Personas";
-
+import Footer from "./Components/Footer";
 function App() {
     return (
         <div>
@@ -174,69 +174,29 @@ function App() {
                     </Grid>
                 </Grid>
                 <h3 class="highlighted-paragraph">Wireframes</h3>
-                <Grid container>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wf1.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wf2.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wf3.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "87px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wf4.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/wireframes/wf5.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', paddingLeft: '180px' }}>
+                    {/* First 3 photos */}
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        <img alt="iteration1" src={require("./images/wireframes/wf1.jpg")} style={{ height: "85%", width: "85%" }} />
+                    </div>
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        <img alt="iteration1" src={require("./images/wireframes/wf2.jpg")} style={{ height: "85%", width: "85%" }} />
+                    </div>
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        <img alt="iteration1" src={require("./images/wireframes/wf3.jpg")} style={{ height: "85%", width: "85%" }} />
+                    </div>
 
-                </Grid>
+                    {/* Last 2 photos */}
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        <img alt="iteration1" src={require("./images/wireframes/wf4.jpg")} style={{ height: "100%", width: "85%" }} />
+                    </div>
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        <img alt="iteration1" src={require("./images/wireframes/wf5.jpg")} style={{ height: "100%", width: "85%" }} />
+                    </div>
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        {/* This is the spacer */}
+                    </div>
+                </div>
             </div>
             <br/>
             <div id="FinalDesign">
@@ -262,69 +222,33 @@ function App() {
                     to inclusive design principles.
                 </h5>
                 <h3 class="highlighted-paragraph">Final Design work</h3>
-                <Grid container>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/finaldesign/fd1.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/finaldesign/393810970_6766496816767927_9174245756332983525_n.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/finaldesign/fd3.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "90px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/finaldesign/fd4.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                    <Grid item xs={4} md={4}>
-                        <img
-                            alt="iteration1"
-                            src={require("./images/finaldesign/fd5.jpg")}
-                            style={{
-                                height: "80%",
-                                width: "80%",
-                                paddingRight: "100px",
-                                paddingLeft: "100px",
-                            }}
-                        />
-                    </Grid>
-                </Grid>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', padding: '20px 80px 180px 180px'}}>
+
+                    {/* First 3 photos */}
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        <img alt="iteration1" src={require("./images/finaldesign/fd1.jpg")} style={{ height: "100%", width: "100%" }} />
+                    </div>
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        <img alt="iteration1" src={require("./images/finaldesign/393810970_6766496816767927_9174245756332983525_n.jpg")} style={{ height: "100%", width: "100%" }} />
+                    </div>
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        <img alt="iteration1" src={require("./images/finaldesign/fd3.jpg")} style={{ height: "100%", width: "100%" }} />
+                    </div>
+
+                    {/* Last 2 photos */}
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box', paddingTop: '20px' }}>
+                        <img alt="iteration1" src={require("./images/finaldesign/fd4.jpg")} style={{ height: "110%", width: "100%" }} />
+                    </div>
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box', paddingTop: '20px' }}>
+                        <img alt="iteration1" src={require("./images/finaldesign/fd5.jpg")} style={{ height: "110%", width: "100%" }} />
+                    </div>
+                    {/* Spacer */}
+                    <div style={{ flex: 1, flexBasis: '33.33%', padding: '0 25px', boxSizing: 'border-box' }}>
+                        {/* Empty spacer div */}
+                    </div>
+                </div>
             </div>
+            <Footer/>
         </div>
     );
 }
