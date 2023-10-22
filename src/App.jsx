@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar";
 import Marketcards from "./Components/Marketcards";
 import Surveys from "./Components/Surveys";
 import Personas from "./Components/Personas";
-import Footer from "./Components/Footer";
+
 function App() {
     return (
         <div>
@@ -65,6 +65,13 @@ function App() {
                     </a>
                     . We distributed the questionnaires to senior relatives from our neighborhood and we received 15 responses.
                 </h5>
+                {/*<h5 class="paragraph">*/}
+                {/*    /!*Here are the findings of our{" "}*!/*/}
+                {/*    /!*<a href="https://docs.google.com/forms/d/e/1FAIpQLScjnbsTVL_80Z0VI418eEWkYj3HLPP5xGdBlF9cOikDmqeyIQ/viewform">*!/*/}
+                {/*    /!*    survey*!/*/}
+                {/*    /!*</a>*!/*/}
+                {/*    .We distributed the questionnaires to senior relatives from our neighborhood and we received 15 responses.*/}
+                {/*</h5>*/}
                 <Surveys/>
             </div>
             <br/>
@@ -246,7 +253,6 @@ function App() {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     );
 }
