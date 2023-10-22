@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MiniProject-SOEN357/static/css/main.7bd80f55.css",
-    "main.js": "/MiniProject-SOEN357/static/js/main.182549f1.js",
+    "main.css": "/MiniProject-SOEN357/static/css/main.640cdb4a.css",
+    "main.js": "/MiniProject-SOEN357/static/js/main.cae23896.js",
     "static/js/787.c941f16e.chunk.js": "/MiniProject-SOEN357/static/js/787.c941f16e.chunk.js",
     "static/media/journey_map.png": "/MiniProject-SOEN357/static/media/journey_map.9d9f10382b2725200a97.png",
     "static/media/ssc1.png": "/MiniProject-SOEN357/static/media/ssc1.a78330f29a346120fcea.png",
@@ -10,9 +10,7 @@
     "static/media/p2.png": "/MiniProject-SOEN357/static/media/p2.02f97f97ac8c0dea1f85.png",
     "static/media/p3.png": "/MiniProject-SOEN357/static/media/p3.ccfa5c22d25ad625ee3b.png",
     "static/media/p1.png": "/MiniProject-SOEN357/static/media/p1.275c9698e2655e5caea5.png",
-    "static/media/387506906_351581823963637__n.jpg": "/MiniProject-SOEN357/static/media/387506906_351581823963637_8383108626119808794_n.731eb6cdd9d87f7cc68c.jpg",
     "static/media/387511292___n.jpg": "/MiniProject-SOEN357/static/media/387511292_6648446641929343_5162624393080302436_n.4125fbe52c6c8cac3319.jpg",
-    "static/media/387649611___n.jpg": "/MiniProject-SOEN357/static/media/387649611_3593028587633494_5731897348590143103_n.a261e1e8e180b91ba015.jpg",
     "static/media/fd5.jpg": "/MiniProject-SOEN357/static/media/fd5.bba0eeb9a6a77e81cd55.jpg",
     "static/media/fd4.jpg": "/MiniProject-SOEN357/static/media/fd4.8d88e6a36ca4811cac38.jpg",
     "static/media/Flowchart.png": "/MiniProject-SOEN357/static/media/Flowchart.38f9eee8809abe24d542.png",
@@ -34,12 +32,12 @@
     "static/media/yardi2.jpg": "/MiniProject-SOEN357/static/media/yardi2.57f8a8c9be698f336f3e.jpg",
     "static/media/amike3.jpg": "/MiniProject-SOEN357/static/media/amike3.ddb748837eb2d82695db.jpg",
     "index.html": "/MiniProject-SOEN357/index.html",
-    "main.7bd80f55.css.map": "/MiniProject-SOEN357/static/css/main.7bd80f55.css.map",
-    "main.182549f1.js.map": "/MiniProject-SOEN357/static/js/main.182549f1.js.map",
+    "main.640cdb4a.css.map": "/MiniProject-SOEN357/static/css/main.640cdb4a.css.map",
+    "main.cae23896.js.map": "/MiniProject-SOEN357/static/js/main.cae23896.js.map",
     "787.c941f16e.chunk.js.map": "/MiniProject-SOEN357/static/js/787.c941f16e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bd80f55.css",
-    "static/js/main.182549f1.js"
+    "static/css/main.640cdb4a.css",
+    "static/js/main.cae23896.js"
   ]
 }
